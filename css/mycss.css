@@ -1,0 +1,95 @@
+body{
+  background-color:lightgreen;
+  color:black;
+  padding-top: 10px;
+}
+
+.container .navbar-nav {
+  margin-top: 5em;
+}
+
+p, li, td{
+  text-align: justify;
+  font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+a {
+  outline:0;
+}
+
+.navbar-nav li a:link, .navbar-nav li a:visited {
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: black;  
+}
+
+.navbar-nav li.active a, .dropdown-menu li.active a{
+  background-color: green;
+  color: white;
+ }
+
+.navbar-nav li a:hover,.navbar-nav li.active a:hover{
+    background-color:lightblue;
+    color:white;
+}
+
+.navbar {
+  background-image:none;
+  background-color: green; 
+  border-color: green;
+  padding-bottom: 15px;
+}
+
+.navbar img {
+  width: 60px;
+  height: 40px;
+}
+
+.navbar .navbar-brand, .navbar ul.nav li a:link, .navbar ul.nav li a:visited, .navbar ul.nav li  a:hover{
+  color : white;
+  font-weight:bold;
+  text-shadow:none;
+}
+
+.navbar ul.nav li {
+  font-family : Verdana, Helvetica, sans-serif;
+  font-size : 1.5em;
+  margin:0 .8em;
+}
+
+.navbar ul.nav li.dropdown >ul.dropdown-menu a:link, .navbar ul.nav li.dropdown >ul.dropdown-menu a:visited{
+  color:black;
+  font-weight:bold;
+  background-color:white;
+}
+
+ul.nav li.dropdown ul{
+  margin-top:.1em;
+  opacity:.9;
+}
+
+ .navbar .nav li.dropdown.open .dropdown-toggle {
+  color:white;
+  background-color:red;
+  background-image:none;
+  box-shadow:none;
+}
+
+.navbar ul.nav li.dropdown >ul.dropdown-menu a:hover{
+  background-image:none;
+  background-color:red;
+  color:white;
+}
+
+.navbar-inverse .navbar-toggle{
+  border-color:white;
+}
+
+.navbar-inverse .navbar-toggle:hover,.navbar-inverse .navbar-toggle:focus{
+  background-color:black;
+}
+
+.browser img {
+ width: 100px;
+ height: 100px;
+}
